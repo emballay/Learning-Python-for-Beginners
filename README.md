@@ -2,29 +2,4 @@
 
 Testing everything, all day, everyday AKA "Why doesn't my code work?"
 
-shopping_list = ["banana", "orange", "apple"]
-
-stock = {
-    "banana": 6,
-    "apple": 0,
-    "orange": 32,
-    "pear": 15
-}
-    
-prices = {
-    "banana": 4,
-    "apple": 2,
-    "orange": 1.5,
-    "pear": 3
-}
-
-# Write your code below!
-def compute_bill(food):
-    total = 0
-    for item in prices:
-        total = sum(prices[item])
-    return total
-    
-food = shopping_list[0:]
-
-print compute_bill(food)
+Help me fix this.
